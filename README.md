@@ -35,6 +35,14 @@ I created basic wireframes of how I wanted the layout of the site to look using 
 
 #### Results Wireframe
 ![Results wireframe](assets/readme-images/result-wireframe.png)
+
+## Design Choices
+
+### Font
+* The font used throughout the site is "montserrat" with "sans-serif" as the secondary font.
+    * I chose this particular font because I wanted something simple and easy to read.
+    * The fact that the user will need to be able to quickly read the questions and the answer options in the quiz means that the font should ideally be well defined and easy to read.
+
 ## Features
 
 ## Technologies Used

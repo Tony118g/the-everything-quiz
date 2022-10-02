@@ -61,3 +61,28 @@ h2 {
     border-radius: 20px;
     box-shadow: 0px 0px 15px 5px  #abdfff;
 }
+
+/* rules modal styles */
+
+#rules-heading {
+    font-size: 2rem;
+}
+
+li {
+    text-align:left;
+    margin: 0 20px;
+    padding:10px;
+}
+
+#close-rules {
+    position: absolute;
+    top: 20px;
+    right:20px;
+    padding: 0 10px;
+    background-color: inherit;
+    font-size:2rem;
+    border: none;
+    border-radius: 20px;
+    float: right;
+    font-family: montserrat, sans-serif;
+}

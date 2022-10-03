@@ -2,6 +2,7 @@
 
 const heading = document.getElementById("heading");
 const menu = document.getElementById("menu");
+const rulesModal = document.getElementById("rules");
 
 // waits for DOM to load before executing first function
 // gets the menu buttons and adds event listeners to them
@@ -25,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function() {
  */
 
 function displayRules() {
-    const rulesModal = document.getElementById("rules");
     rulesModal.classList.remove("hide");
     heading.classList.add("hide");
     menu.classList.add("hide");
@@ -34,7 +34,9 @@ function displayRules() {
 }
 
 function closeRules() {
-    
+    rulesModal.classList.add("hide");
+    heading.classList.remove("hide");
+    menu.classList.remove("hide");
 }
 
 function quizDifficultyPrompt() {

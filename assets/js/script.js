@@ -73,9 +73,9 @@ function quizDifficultyPrompt() {
             if (this.getAttribute("id") === "easy" ) {
                 startEasyQuiz();
             } else if (this.getAttribute("id") === "medium") {
-                console.log("medium quiz");
+                startMediumQuiz();
             } else if (this.getAttribute("id") === "hard") {
-                console.log("hard quiz");
+                startHardQuiz();
             } 
         })
     }
@@ -90,6 +90,32 @@ function quizDifficultyPrompt() {
 function startEasyQuiz() {
     quizArea.classList.remove("hide");
     shuffledQuestions = easyQuestions.sort(() => .5 - Math.random()).slice(0, 10);
+    currentQuestionIndex = 0;
+    console.log("working");
+}
+
+/**
+ * Displays the quiz area and gets 10 random questions 
+ * from the mediumQuestions object for the medium quiz whilst
+ * setting the currentQuestionIndex to 0 for the start of the quiz.
+ */
+
+function startMediumQuiz() {
+    quizArea.classList.remove("hide");
+    shuffledQuestions = mediumQuestions.sort(() => .5 - Math.random()).slice(0, 10);
+    currentQuestionIndex = 0;
+    console.log("working");
+}
+
+/**
+ * Displays the quiz area and gets 10 random questions 
+ * from the hardQuestions object for the hard quiz whilst
+ * setting the currentQuestionIndex to 0 for the start of the quiz.
+ */
+
+ function startHardQuiz() {
+    quizArea.classList.remove("hide");
+    shuffledQuestions = hardQuestions.sort(() => .5 - Math.random()).slice(0, 10);
     currentQuestionIndex = 0;
     console.log("working");
 }

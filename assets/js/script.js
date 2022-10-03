@@ -120,6 +120,14 @@ function startMediumQuiz() {
     nextQuestion();
 }
 
+/**
+ * Checks whether the current question index is below 10
+ * and if it is, increments the currentQuestionIndex and calls 
+ * functions to reset and display the quiz content.
+ * Otherwise it calls the function
+ * to display the final result.
+ */
+
 function nextQuestion() {
     if (currentQuestionIndex < 10) {
         resetQuizContent();
@@ -129,6 +137,12 @@ function nextQuestion() {
         finalResult();
       }
 }
+
+/**
+ * Gets the quiz content containers and
+ * inputs the question and answers content
+ * into the appropriate ones.
+ */
 
 function displayQuizContent(question) {
     const questionContainer= document.getElementById("question");
@@ -167,8 +181,21 @@ function timeUp() {
 
 }
 
-function checkAnswer() {
+/**
+ * Checks the answer chosen against the correct answer
+ * and responds accordingly.
+ */
 
+function checkAnswer() {
+    let correctAnswer = document.getElementById("correct");
+    const clickedButton = event.target;
+    const correct = clickedButton.dataset.correct;
+    correctAnswer.classList.add("correct-answer");
+        if (correct) {
+            incrementScore();
+        } else {
+            this.classList.add("wrong-answer");
+        }     
 }
 
 function incrementScore() {

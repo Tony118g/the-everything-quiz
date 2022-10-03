@@ -92,3 +92,17 @@ li {
 .hide {
     display: none;
 }
+
+/* styles for correct and wrong answer buttons */
+
+.correct-answer {
+    color:black;
+    background-color: #62ff00 !important;
+    box-shadow: 0px 0px 15px 5px #0e202b ;
+}
+
+.wrong-answer {
+    color:black;
+    background-color: red !important;
+    box-shadow: 0px 0px 15px 5px #0e202b ;
+}

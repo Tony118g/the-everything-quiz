@@ -91,7 +91,7 @@ function startEasyQuiz() {
     quizArea.classList.remove("hide");
     shuffledQuestions = easyQuestions.sort(() => .5 - Math.random()).slice(0, 10);
     currentQuestionIndex = 0;
-    console.log("working");
+    nextQuestion();
 }
 
 /**
@@ -104,7 +104,7 @@ function startMediumQuiz() {
     quizArea.classList.remove("hide");
     shuffledQuestions = mediumQuestions.sort(() => .5 - Math.random()).slice(0, 10);
     currentQuestionIndex = 0;
-    console.log("working");
+    nextQuestion();
 }
 
 /**
@@ -117,15 +117,21 @@ function startMediumQuiz() {
     quizArea.classList.remove("hide");
     shuffledQuestions = hardQuestions.sort(() => .5 - Math.random()).slice(0, 10);
     currentQuestionIndex = 0;
-    console.log("working");
+    nextQuestion();
 }
 
 function nextQuestion() {
-
+    if (currentQuestionIndex < 10) {
+        resetQuizContent();
+        displayQuizContent(shuffledQuestions[currentQuestionIndex]);
+        currentQuestionIndex++;
+      } else {
+        finalResult();
+      }
 }
 
-function displayQuizContent() {
-
+function displayQuizContent(question) {
+    
 }
 
 function displayQuestionNumber() {

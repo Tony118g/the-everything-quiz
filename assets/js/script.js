@@ -177,8 +177,15 @@ function displayQuizContent(question) {
     displayQuestionNumber();
 }
 
-function displayQuestionNumber() {
+/**
+ * Gets the question number element and changes its
+ * contents according to the current question index
+ * to display the current question number.
+ */
 
+function displayQuestionNumber() {
+    const questionNumber = document.getElementById("question-number");
+    questionNumber.innerText = currentQuestionIndex + 1;
 }
 
 function timer() {

@@ -11,6 +11,7 @@ const menu = document.getElementById("menu");
 const rulesModal = document.getElementById("rules");
 const quizArea = document.getElementById("quiz-area");
 const answersArea = document.getElementById('answer-area');
+const nextButton = document.getElementById("next-button");
 
 // variables to be defined
 
@@ -197,6 +198,7 @@ function checkAnswer(event) {
         } else {
             this.classList.add("wrong-answer");
         }     
+    nextButton.classList.remove("hide"); // Displays the next button.
 }
 
 function incrementScore() {

@@ -119,3 +119,39 @@ function startMediumQuiz() {
     currentQuestionIndex = 0;
     console.log("working");
 }
+
+function nextQuestion() {
+
+}
+
+function displayQuizContent() {
+
+}
+
+function displayQuestionNumber() {
+
+}
+
+function timer() {
+
+}
+
+function timeUp() {
+
+}
+
+function checkAnswer() {
+
+}
+
+function incrementScore() {
+
+}
+
+function resetQuizContent() {
+
+}
+
+function finalResult() {
+
+}

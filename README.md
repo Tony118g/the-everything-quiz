@@ -61,6 +61,15 @@ I created basic wireframes of how I wanted the layout of the site to look using 
 
 ## Deployment and Development
 
+### Deploying the Site
+
+* The site was deployed using github pages through the following steps:
+1. In the "the-everything-quiz" github repository ,click on "settings".
+2. Scroll down and click on the "pages" tab.
+3. In the dropdown menu for the branch, select "main".
+4. Click on "save".
+5. Refresh the page to view the deployed website link.
+
 ## Credits
 
 ## Acknowledgements

@@ -34,6 +34,13 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+/*
+ Listens for a click on the next button
+and calls function for the next question.
+*/
+
+nextButton.addEventListener("click", nextQuestion);
+
 /**
  * Hides the main menu while displaying the rules modal
  * and adds an event listener to the close button.

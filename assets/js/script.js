@@ -186,7 +186,7 @@ function timeUp() {
  * and responds accordingly.
  */
 
-function checkAnswer() {
+function checkAnswer(event) {
     let correctAnswer = document.getElementById("correct");
     const clickedButton = event.target;
     const correct = clickedButton.dataset.correct;

@@ -215,8 +215,15 @@ function checkAnswer(event) {
     nextButton.classList.remove("hide"); // Displays the next button.
 }
 
-function incrementScore() {
+/**
+ * Gets the current score and increments by 1.
+ */
 
+// The idea on how to implement code to increment the score was taken
+// from the love maths project (https://github.com/Tony118g/love-maths).
+function incrementScore() {
+    let score = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++score;
 }
 
 /**

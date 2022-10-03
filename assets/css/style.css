@@ -49,6 +49,13 @@ h2 {
     box-shadow: 0px 0px 15px 5px  #0e202b;
 }
 
+/* Answer area buttons in quiz */
+
+#answer-area > .btn {
+    color:#0e202b;
+    background-color: white;
+}
+
 /* container divs */
 
 .container {

@@ -1,8 +1,20 @@
+/*
+Ideas on how to implement certain parts of code
+for the quiz were taken from the following youtube tutorial:
+https://www.youtube.com/watch?v=riDzcEQbX6k 
+*/
+
 // global variables
 
 const heading = document.getElementById("heading");
 const menu = document.getElementById("menu");
 const rulesModal = document.getElementById("rules");
+const quizArea = document.getElementById("quiz-area");
+
+// variables to be defined
+
+let shuffledQuestions;
+let currentQuestionIndex;
 
 // waits for DOM to load before executing first function
 // gets the menu buttons and adds event listeners to them
@@ -57,8 +69,9 @@ function quizDifficultyPrompt() {
     const difficultyOptions = document.getElementsByClassName("difficulty-option");
     for (let difficultyOption of difficultyOptions) {
         difficultyOption.addEventListener("click", function() {
+            difficultyPrompt.classList.add("hide");
             if (this.getAttribute("id") === "easy" ) {
-                console.log("easy quiz");
+                startEasyQuiz();
             } else if (this.getAttribute("id") === "medium") {
                 console.log("medium quiz");
             } else if (this.getAttribute("id") === "hard") {
@@ -66,4 +79,17 @@ function quizDifficultyPrompt() {
             } 
         })
     }
+}
+
+/**
+ * Displays the quiz area and gets 10 random questions 
+ * from the easyQuestions object for the easy quiz whilst
+ * setting the currentQuestionIndex to 0 for the start of the quiz.
+ */
+
+function startEasyQuiz() {
+    quizArea.classList.remove("hide");
+    shuffledQuestions = easyQuestions.sort(() => .5 - Math.random()).slice(0, 10);
+    currentQuestionIndex = 0;
+    console.log("working");
 }

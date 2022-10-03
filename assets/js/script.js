@@ -131,7 +131,28 @@ function nextQuestion() {
 }
 
 function displayQuizContent(question) {
+    const questionContainer= document.getElementById("question");
+    const answersArea = document.getElementById('answer-area');
+
+    // Adds the question content
+    questionContainer.innerText = question.question;
+
+    // creates a button for each answer option associated with the question.
+    question.answers.forEach(answer => {
+        const button = document.createElement('button');
+        button.innerText = answer.text;
+        button.classList.add('btn');
+        if (answer.correct) {
+            button.dataset.correct = true;
+            button.id = "correct";
+        } else {
+            button.classList.add("incorrect");
+        }
+        button.addEventListener("click", checkAnswer);
+        answersArea.appendChild(button);
+    });
     
+    displayQuestionNumber();
 }
 
 function displayQuestionNumber() {

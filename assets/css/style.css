@@ -86,3 +86,9 @@ li {
     float: right;
     font-family: montserrat, sans-serif;
 }
+
+/* style to hide modals */
+
+.hide {
+    display: none;
+}

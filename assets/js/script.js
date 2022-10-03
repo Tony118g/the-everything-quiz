@@ -212,8 +212,19 @@ function incrementScore() {
 
 }
 
-function resetQuizContent() {
+/**
+ * Restores original structure and presentation
+ * of the quiz area in preparation for new content.
+ */
 
+function resetQuizContent() {
+    nextButton.classList.add("hide"); // Hides the next button.
+    answersArea.classList.remove("no-pointer"); // Allows clicks again in answer area.
+
+    // Removes previous answer options
+    while (answersArea.firstChild) {
+        answersArea.removeChild(answersArea.firstChild);
+      }
 }
 
 function finalResult() {

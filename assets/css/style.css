@@ -106,3 +106,13 @@ li {
     background-color: red !important;
     box-shadow: 0px 0px 15px 5px #0e202b ;
 }
+
+/* 
+Style to prevent clicks in answer area when the no-pointer
+class is applied.
+*/
+
+.no-pointer {
+    pointer-events: none;
+}
+

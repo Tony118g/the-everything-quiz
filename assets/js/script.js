@@ -10,6 +10,7 @@ const heading = document.getElementById("heading");
 const menu = document.getElementById("menu");
 const rulesModal = document.getElementById("rules");
 const quizArea = document.getElementById("quiz-area");
+const answersArea = document.getElementById('answer-area');
 
 // variables to be defined
 
@@ -146,7 +147,6 @@ function nextQuestion() {
 
 function displayQuizContent(question) {
     const questionContainer= document.getElementById("question");
-    const answersArea = document.getElementById('answer-area');
 
     // Adds the question content
     questionContainer.innerText = question.question;
@@ -187,6 +187,7 @@ function timeUp() {
  */
 
 function checkAnswer(event) {
+    answersArea.classList.add("no-pointer"); // Prevents clicks after answer is chosen.
     let correctAnswer = document.getElementById("correct");
     const clickedButton = event.target;
     const correct = clickedButton.dataset.correct;

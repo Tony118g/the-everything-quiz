@@ -11,12 +11,15 @@ const menu = document.getElementById("menu");
 const rulesModal = document.getElementById("rules");
 const quizArea = document.getElementById("quiz-area");
 const answersArea = document.getElementById('answer-area');
+const timeDisplay = document.getElementById("timer");
 const nextButton = document.getElementById("next-button");
 
 // variables to be defined
 
 let shuffledQuestions;
 let currentQuestionIndex;
+let timeLeft;
+let timerInterval;
 
 // waits for DOM to load before executing first function
 // gets the menu buttons and adds event listeners to them
@@ -142,6 +145,7 @@ function nextQuestion() {
         resetQuizContent();
         displayQuizContent(shuffledQuestions[currentQuestionIndex]);
         currentQuestionIndex++;
+        timer();
       } else {
         finalResult();
       }
@@ -188,8 +192,28 @@ function displayQuestionNumber() {
     questionNumber.innerText = currentQuestionIndex + 1;
 }
 
-function timer() {
+/**
+ * Sets the interval time for the timer function.
+ */
 
+function startTimer() {
+    timerInterval = setInterval(timer, 1000);
+}
+
+/**
+ * Checks whether the timeLeft is above 0
+ * and decrements it if so. Otherwise it calls the timeUp function
+ */
+
+function timer() {
+    if (timeLeft <= 0){
+        console.log("time up!");
+        timeUp();
+      } else {
+        console.log("timer working");
+        timeLeft--;
+      }
+      timeDisplay.innerHTML = 'Time: ' + timeLeft;    
 }
 
 function timeUp() {
@@ -234,7 +258,8 @@ function incrementScore() {
 function resetQuizContent() {
     nextButton.classList.add("hide"); // Hides the next button.
     answersArea.classList.remove("no-pointer"); // Allows clicks again in answer area.
-
+    timeLeft = 16; // resets the time amount
+    startTimer(); // resets the interval for the timer
     // Removes previous answer options
     while (answersArea.firstChild) {
         answersArea.removeChild(answersArea.firstChild);

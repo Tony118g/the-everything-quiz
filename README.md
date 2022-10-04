@@ -70,6 +70,8 @@ I created basic wireframes of how I wanted the layout of the site to look using 
 4. Click on "save".
 5. Refresh the page to view the deployed website link.
 
+![Deployment screenshot](assets/readme-images/deployment-screenshot.png)
+
 ## Credits
 
 ## Acknowledgements

@@ -57,6 +57,24 @@ I created basic wireframes of how I wanted the layout of the site to look using 
 
 ## Technologies Used
 
+* [Balsamiq](https://balsamiq.com/wireframes/)
+    * Used to create the wireframes during planning stage of the site.
+
+* [HTML5](https://html.spec.whatwg.org/)
+    * Used to add structure and content to the site.
+
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+    * Used to add style to the HTML.
+
+* [JavaScript](https://www.javascript.com/)
+    * Used to enhance functionality and interactivity throughout the site.
+
+* [Gitpod](https://www.gitpod.io/#get-started)
+    * Used to creat the code and content for the repository.
+
+* [Github](https://github.com/)
+    * Used to store the repository and deploy the site.
+    
 ## Testing
 
 ## Deployment and Development

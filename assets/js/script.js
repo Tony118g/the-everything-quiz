@@ -293,4 +293,20 @@ function finalResult() {
     heading.classList.remove("hide"); // shows main heading
     quizComplete.classList.remove("hide"); //shows the div for complete quiz
     finalScore.innerText = score.innerText; // inputs the final score
+
+    /*
+    Gets the buttons with class of quiz-complete-btn and
+    adds event listeners to them.
+    */
+    const endOfQuizButtons = document.getElementsByClassName("quiz-complete-btn");
+    for (let endOfQuizButton of endOfQuizButtons) {
+        endOfQuizButton.addEventListener("click", function() {
+            quizComplete.classList.add("hide");
+            if (this.getAttribute("id") === "retry-button") {
+                quizDifficultyPrompt();
+            } else if  (this.getAttribute("id") === "main-menu-button") {
+               menu.classList.remove("hide");
+            }
+        })
+    }
 }

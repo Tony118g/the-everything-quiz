@@ -142,4 +142,25 @@ class is applied.
         margin:40px auto;
     }
 
+    /* provides feedback when the user hovers over buttons */
+
+    .btn:hover {
+        border-color: #62ff00;
+        color:#62ff00;
+        box-shadow: 0px 0px 15px 5px  #62ff00;
+    }
+
+    #close-rules:hover {
+        background-color: #0e202b;
+        border-color: #62ff00;
+        color:#62ff00;
+        box-shadow: 0px 0px 15px 5px  #62ff00;
+    }
+
+    #answer-area > .btn:hover {
+        background-color: #0e202b;
+        color:#abdfff;
+        box-shadow: 0px 0px 15px 5px  #abdfff;
+    }
+
 }

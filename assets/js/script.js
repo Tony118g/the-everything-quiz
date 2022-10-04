@@ -280,6 +280,17 @@ function resetQuizContent() {
       }
 }
 
-function finalResult() {
+/**
+ * Displays the div with id of quiz-complete 
+ * as well as the main heading
+ * and hides the quiz area.
+ */
 
+function finalResult() {
+    const quizComplete = document.getElementById("quiz-complete");
+    const finalScore = document.getElementById("final-score");
+    quizArea.classList.add("hide"); // hides quiz area
+    heading.classList.remove("hide"); // shows main heading
+    quizComplete.classList.remove("hide"); //shows the div for complete quiz
+    finalScore.innerText = score.innerText; // inputs the final score
 }

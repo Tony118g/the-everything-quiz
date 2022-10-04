@@ -193,6 +193,11 @@ function displayQuestionNumber() {
     questionNumber.innerText = currentQuestionIndex + 1;
 }
 
+/*
+Ideas on how to implement code for the timer
+were taken from https://stackoverflow.com/questions/44314897/javascript-timer-for-a-quiz
+*/
+
 /**
  * Sets the interval time for the timer function.
  */
@@ -208,17 +213,24 @@ function startTimer() {
 
 function timer() {
     if (timeLeft <= 0){
-        console.log("time up!");
         timeUp();
       } else {
-        console.log("timer working");
         timeLeft--;
       }
       timeDisplay.innerHTML = 'Time: ' + timeLeft;    
 }
 
+
+
 function timeUp() {
     clearInterval(timerInterval); // stops the timer from continuing
+    const wrongAnswers = document.querySelectorAll('.incorrect');
+    for (const wrongAnswer of wrongAnswers) {
+    wrongAnswer.classList.add('wrong-answer');
+    }
+    let correctAnswer = document.getElementById("correct");
+    correctAnswer.classList.add("correct-answer");
+    nextButton.classList.remove("hide");
 }
 
 /**

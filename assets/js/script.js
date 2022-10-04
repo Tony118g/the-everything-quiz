@@ -141,6 +141,7 @@ function startMediumQuiz() {
  */
 
 function nextQuestion() {
+    clearInterval(timerInterval); // stops the timer from continuing
     if (currentQuestionIndex < 10) {
         resetQuizContent();
         displayQuizContent(shuffledQuestions[currentQuestionIndex]);
@@ -217,7 +218,7 @@ function timer() {
 }
 
 function timeUp() {
-
+    clearInterval(timerInterval); // stops the timer from continuing
 }
 
 /**
@@ -226,6 +227,7 @@ function timeUp() {
  */
 
 function checkAnswer(event) {
+    clearInterval(timerInterval); // stops the timer from continuing
     answersArea.classList.add("no-pointer"); // Prevents clicks after answer is chosen.
     let correctAnswer = document.getElementById("correct");
     const clickedButton = event.target;

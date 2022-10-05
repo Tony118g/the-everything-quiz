@@ -223,7 +223,8 @@ function timer() {
 
 
 function timeUp() {
-    clearInterval(timerInterval); // stops the timer from continuing
+    clearInterval(timerInterval); // Stops the timer from continuing.
+    answersArea.classList.add("no-pointer"); // Prevents clicks when time runs out.
     const wrongAnswers = document.querySelectorAll('.incorrect');
     for (const wrongAnswer of wrongAnswers) {
     wrongAnswer.classList.add('wrong-answer');

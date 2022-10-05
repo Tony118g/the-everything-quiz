@@ -90,6 +90,66 @@ The Everything Quiz is designed to be an easy to use and interactive site with f
 
     ![Screenshot of the difficulty menu](assets/readme-images/difficulty-menu-screenshot.png)
 
+* #### The Quiz Area
+    * Once the user has selected a difficulty, the quiz area is displayed and the quiz begins.
+
+    ![Screenshot of the quiz area](assets/readme-images/quiz-screenshot.png)
+
+    * At the top of the quiz area is the question number which changes depending on which question the user is on out of 10.
+    * This is useful for the user to keep track of how far along the quiz they are.
+
+    ![Screenshot of the question number](assets/readme-images/question-number-screenshot.png)
+
+    * Next to the question number is the timer which displays the amount of time left to answer the current question.
+    * This is useful for the user to know how much time they have left to answer the question.
+
+    ![Screenshot of the timer](assets/readme-images/timer-screenshot.png)
+
+    * Just below the question number and timer is where the question and the answer options are displayed.
+    * This is very useful to the user as it provides the question as well as a list of options to choose from for the answer.
+
+    ![Screenshot of the question and answer options](assets/readme-images/question-and-answers-screenshot.png)
+
+    * At the bottom of the quiz area the current score is displayed.
+    * This is useful for the user to keep track of their score.
+
+    ![Screenshot of the score display](assets/readme-images/score-screenshot.png)
+
+* #### The Next Button
+    * The next button is displayed at the bottom of the quiz area if the user answers a question or if the time runs out.
+    * This is useful for users to be able to move on to the next question in the quiz.
+
+     ![Screenshot of the next button](assets/readme-images/next-button-screenshot.png)
+
+* #### The Correct Answer Display
+    * If the user clicks on the correct answer, the selected answer will be highlighted in green and the score will increment by 1.
+
+    ![Screenshot of the correct answer display](assets/readme-images/correct-answer-screenshot.png)
+
+* #### The Incorrect Answer Display
+    * If the user clicks on an incorrect answer, the selected answer will be highlighted in red and the correct answer will be highlighted in green to inform the user which answer was correct.
+
+    ![Screenshot of the incorrect answer display](assets/readme-images/incorrect-answer-screenshot.png)
+
+
+* #### The Time Up Display
+    * If the user does not answer a question within the given time, an alert appears to inform the user that the time has run out.
+
+    ![Screenshot of the time up alert](assets/readme-images/time-up-alert-screenshot.png)
+
+    * After the user clicks the "Okay" button in the alert, the correct answer is highlighted in green while the incorrect answers are highlighted in red.
+
+    ![Screenshot of the time up display](assets/readme-images/time-up-screenshot.png)
+
+* #### The Completed Quiz Display
+    * At the end of the quiz, the quiz area is replaced by a completed quiz display.
+    * This informs the user that the quiz is complete.
+    * The final score out of 10 is presented to the user.
+    * Buttons to retry or return to the main menu are made available.
+    * This is a valuable feature as it informs the user about the completion of the quiz and provides them with options to go back to the landing page or take another quiz.
+
+     ![Screenshot of the completed quiz display](assets/readme-images/quiz-complete-screenshot.png)
+
 ## Technologies Used
 
 * [Balsamiq](https://balsamiq.com/wireframes/)

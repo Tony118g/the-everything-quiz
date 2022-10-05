@@ -57,6 +57,39 @@ I created basic wireframes of how I wanted the layout of the site to look using 
 
 ## Features
 
+The Everything Quiz is designed to be an easy to use and interactive site with features that work on devices of various sizes.
+
+### Existing Features
+
+* #### The Heading
+    * The heading is featured on the landing page above the main menu.
+    * It is styled to be captivating and its contents refer to the purpose of the site.
+    * This helps users to understand what the site is about and creates a positive first impression.
+
+    ![Screenshot of the heading](assets/readme-images/heading-screenshot.png)
+
+* #### The Main Menu
+    * On the landing page is a main menu situated directly under the heading.
+    * This contains text to entice the user to take part in a quiz as well as buttons to view the quiz rules or initiate a quiz.
+
+    ![Screenshot of the main menu](assets/readme-images/main-menu-screenshot.png)
+
+* #### The Rules Modal
+    * The rules modal is accessed through the "rules" button in the main menu.
+    * It contains a list of rules for the quiz.
+    * At the top right corner of the modal is a button to exit the modal and return to the main menu.
+    * This is useful to users to learn how the quiz works and what the rules are when taking part.
+
+    ![Screenshot of the rules modal](assets/readme-images/rules-screenshot.png)
+
+* #### The Difficulty Menu
+    * The difficulty menu is accessed through the "take the quiz" button in the main menu.
+    * It contains buttons with options to set the difficulty of the quiz, either easy, medium or hard.
+    * Once one of the option buttons is clicked, the quiz associated with the selected difficulty begins.
+    * This is useful for users to be able to choose the difficulty level of the quiz before they begin.
+
+    ![Screenshot of the difficulty menu](assets/readme-images/difficulty-menu-screenshot.png)
+
 ## Technologies Used
 
 * [Balsamiq](https://balsamiq.com/wireframes/)

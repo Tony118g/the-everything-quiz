@@ -30,6 +30,12 @@ h2 {
     font-weight: 300;
 }
 
+/* quiz timer */
+
+#timer {
+    margin-left: 20px;
+}
+
 /* paragraphs */
 
 p {
@@ -147,6 +153,10 @@ class is applied.
 
     .container {
         margin:40px auto;
+    }
+
+    #timer {
+        margin-left: 80px;
     }
 
     /* provides feedback when the user hovers over buttons */

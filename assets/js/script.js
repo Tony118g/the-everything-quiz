@@ -223,6 +223,7 @@ function timer() {
 
 
 function timeUp() {
+    alert("Oh no! You ran out of time!");
     clearInterval(timerInterval); // Stops the timer from continuing.
     answersArea.classList.add("no-pointer"); // Prevents clicks when time runs out.
     const wrongAnswers = document.querySelectorAll('.incorrect');

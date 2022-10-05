@@ -47,11 +47,13 @@ I created basic wireframes of how I wanted the layout of the site to look using 
 
 ![Colour palette](assets/readme-images/color-palette.png)
 
-* The colour palette was chosen based mainly on the colour blue as I wanted to use a calm colour to help relax and focus users during the quiz.
+* The colour palette was chosen with the help of [coolers](https://coolors.co/) and was based mainly on the colour blue as I wanted to use a calm colour to help relax and focus users during the quiz.
 * Although the blue is a calming colour, it is also highly adaptable which made it useful for creating contrast and an overall good visual effect using different shades along with the green and red.
     * I used the darkest shade of blue (0E202B) to create a dark background to ensure the foreground stands out and that nothing distracts from the quiz area. I also used it for the buttons background to make them stand out in the containers while keeping with the overall design.
     * I used the dark sky blue (96C3CF) for the backgrounds of containers to bring the foreground content forwards by creating contrast while still maintaining a simple background.
     * The uranian blue (ABDFFF) was used for some of the text in the buttons and as shadows to create a glowing effect.
+    * The main use for the green (62FF00) is to provide feedback on which answer is correct. It is also used for hover effects on all buttons excluding the quiz answer buttons in order to provide feedback when the user hovers them.
+    * The red (FF0000) is used to provide feedback on which answers are wrong.
 
 ## Features
 

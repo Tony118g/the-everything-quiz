@@ -303,6 +303,7 @@ function finalResult() {
     const endOfQuizButtons = document.getElementsByClassName("quiz-complete-btn");
     for (let endOfQuizButton of endOfQuizButtons) {
         endOfQuizButton.addEventListener("click", function() {
+            score.innerText = 0; // Resets the score to 0 for a new quiz.
             quizComplete.classList.add("hide");
             if (this.getAttribute("id") === "retry-button") {
                 quizDifficultyPrompt();

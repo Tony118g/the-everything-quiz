@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
             } else if  (this.getAttribute("id") === "quiz-button") {
                 quizDifficultyPrompt();
             }
-        })
+        });
     }
 });
 
@@ -89,7 +89,7 @@ function quizDifficultyPrompt() {
             } else if (this.getAttribute("id") === "hard") {
                 startHardQuiz();
             } 
-        })
+        });
     }
 }
 
@@ -310,6 +310,6 @@ function finalResult() {
             } else if  (this.getAttribute("id") === "main-menu-button") {
                menu.classList.remove("hide");
             }
-        })
+        });
     }
 }

@@ -101,7 +101,7 @@ function quizDifficultyPrompt() {
 
 function startEasyQuiz() {
     quizArea.classList.remove("hide");
-    shuffledQuestions = easyQuestions.sort(() => .5 - Math.random()).slice(0, 10);
+    shuffledQuestions = easyQuestions.sort(() => 0.5 - Math.random()).slice(0, 10);
     currentQuestionIndex = 0;
     nextQuestion();
 }
@@ -114,7 +114,7 @@ function startEasyQuiz() {
 
 function startMediumQuiz() {
     quizArea.classList.remove("hide");
-    shuffledQuestions = mediumQuestions.sort(() => .5 - Math.random()).slice(0, 10);
+    shuffledQuestions = mediumQuestions.sort(() => 0.5 - Math.random()).slice(0, 10);
     currentQuestionIndex = 0;
     nextQuestion();
 }
@@ -127,7 +127,7 @@ function startMediumQuiz() {
 
  function startHardQuiz() {
     quizArea.classList.remove("hide");
-    shuffledQuestions = hardQuestions.sort(() => .5 - Math.random()).slice(0, 10);
+    shuffledQuestions = hardQuestions.sort(() => 0.5 - Math.random()).slice(0, 10);
     currentQuestionIndex = 0;
     nextQuestion();
 }

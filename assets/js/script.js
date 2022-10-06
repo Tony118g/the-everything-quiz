@@ -19,6 +19,7 @@ const nextButton = document.getElementById("next-button");
 let shuffledQuestions;
 let currentQuestionIndex;
 let correctAnswer;
+let score;
 let timeLeft;
 let timerInterval;
 
@@ -263,7 +264,7 @@ function checkAnswer(event) {
 // The idea on how to implement code to increment the score was taken
 // from the love maths project (https://github.com/Tony118g/love-maths).
 function incrementScore() {
-    let score = parseInt(document.getElementById("score").innerText);
+    score = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++score;
 }
 
@@ -295,7 +296,7 @@ function finalResult() {
     quizArea.classList.add("hide"); // hides quiz area
     heading.classList.remove("hide"); // shows main heading
     quizComplete.classList.remove("hide"); //shows the div for complete quiz
-    finalScore.innerText = score.innerText; // inputs the final score
+    finalScore.innerText = score; // inputs the final score
 
     /*
     Gets the buttons with class of quiz-complete-btn and
@@ -304,7 +305,7 @@ function finalResult() {
     const endOfQuizButtons = document.querySelectorAll(".quiz-complete-btn");
     endOfQuizButtons.forEach((endOfQuizButton) => {
         endOfQuizButton.addEventListener("click", function() {
-            score.innerText = 0; // Resets the score to 0 for a new quiz.
+            resetScore();
             quizComplete.classList.add("hide");
             if (this.getAttribute("id") === "retry-button") {
                 quizDifficultyPrompt();
@@ -313,4 +314,13 @@ function finalResult() {
             }
         });
     });
+}
+
+/**
+ * Resets the score to 0 for a new quiz.
+ */
+
+function resetScore() {
+    score = document.getElementById("score");
+    score.innerText = 0;
 }

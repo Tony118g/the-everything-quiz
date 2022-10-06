@@ -282,275 +282,284 @@ const easyQuestions = [
 
 // Object containing medium questions.
 
-const mediumQuestions = [
+const mediumQuestions =[
     {
-        question: "medium question",
+        question: "When did Queen Elizebeth the second pass away?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "February 2019", correct: false },
+            { text: "September 2022", correct: true },
+            { text: "August 2022", correct: false },
+            { text: "September 2021", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "Where was the 2012 olympic games held?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Tokyo", correct: false },
+            { text: "Beijing", correct: false },
+            { text: "London", correct: true },
+            { text: "South Africa", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "What is the name of the actor who acts as 'Mr Bean'?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Hugh Jackman", correct: false },
+            { text: "Trevor Noah", correct: false },
+            { text: "Morgan Freeman", correct: false },
+            { text: "Rowan Atkinson", correct: true }
         ]
     },
     {
-        question: "medium question",
+        question: "How many states are there in the USA?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "30", correct: false },
+            { text: "60", correct: false },
+            { text: "50", correct: true },
+            { text: "40", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "What is the capital city of India?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "New Delhi", correct: true },
+            { text: "Mumbai", correct: false },
+            { text: "Bangalore", correct: false },
+            { text: "Pune", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "On a dartboard, what number is at the very top?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "1", correct: false },
+            { text: "3", correct: false },
+            { text: "20", correct: true },
+            { text: "12", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "Which of these is both a country and a continent?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "India", correct: false },
+            { text: "Madagascar", correct: false },
+            { text: "Japan", correct: false },
+            { text: "Australia", correct: true }
         ]
     },
     {
-        question: "medium question",
+        question: "Which city is the tv show 'Friends' set in?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "New York City", correct: true },
+            { text: "Chicago", correct: false },
+            { text: "Boston", correct: false },
+            { text: "Seattle", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "The disease known as scurvy is due to a lack of what?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Vitamin A", correct: false },
+            { text: "Vitamin b", correct: false },
+            { text: "Vitamin c", correct: true },
+            { text: "Vitamin d", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "Who is the author of the Harry potter book series?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Anne Frank", correct: false },
+            { text: "JK Rowling", correct: true },
+            { text: "John Green", correct: false },
+            { text: "Stephenie Meyer", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "How many time zones are there in Africa?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "3", correct: false },
+            { text: "4", correct: false },
+            { text: "5", correct: false },
+            { text: "6", correct: true }
         ]
     },
     {
-        question: "medium question",
+        question: "What units are used to measure sound?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Hertz", correct: false },
+            { text: "Watts", correct: false },
+            { text: "Decibels", correct: true },
+            { text: "Yards", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "Who acted as Jack in the movie 'Titanic'?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Brad Pitt", correct: false },
+            { text: "Leonardo Dicaprio", correct: true },
+            { text: "Leonardo da Vinci", correct: false },
+            { text: "Matt Damon", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "What is the biggest ocean on earth?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Pacific", correct: true },
+            { text: "Atlantic", correct: false },
+            { text: "Indian", correct: false },
+            { text: "Arctic", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "Who sang 'Radio Ga Ga'?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Michael Jackson", correct: false },
+            { text: "Lady Gaga", correct: false },
+            { text: "Elton John", correct: false },
+            { text: "Freddie Mercury", correct: true }
         ]
     },
     {
-        question: "medium question",
+        question: "Who is famous for inventing the light bulb?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Thomas Edison", correct: true },
+            { text: "Nikola Tesla", correct: false },
+            { text: "Benjamin Franklin", correct: false },
+            { text: "Alexander Graham Bell", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "Who painted the Mona Lisa?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Michelangelo", correct: false },
+            { text: "Raphael", correct: false },
+            { text: "Donatello", correct: false },
+            { text: "Leonardo da Vinci", correct: true }
         ]
     },
     {
-        question: "medium question",
+        question: "Which actor acted as Rambo?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Tom Cruise", correct: false },
+            { text: "Arnold Schwarzenegger", correct: false },
+            { text: "Keanu Reeves", correct: false },
+            { text: "Sylvester Stallone", correct: true }
         ]
     },
     {
-        question: "medium question",
+        question: "Where is the Stonehenge?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "America ", correct: false },
+            { text: "India", correct: false },
+            { text: "England", correct: true },
+            { text: "France", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "What is the human population of the world in 2022?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "7 billion", correct: false },
+            { text: "8 billion", correct: false },
+            { text: "7.45 billion", correct: false },
+            { text: "7.75 billion", correct: true }
         ]
     },
     {
-        question: "medium question",
+        question: "What currency is used in China?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Renminbi", correct: true },
+            { text: "Chinese dollar", correct: false },
+            { text: "Chinese Shillings", correct: false },
+            { text: "None of the above", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "Who was the British prime minister in 2021?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Borris Johnson", correct: true },
+            { text: "Theresa May", correct: false },
+            { text: "Tony Blair", correct: false },
+            { text: "Gordon Brown", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "Who is the 2022 president of Zimbabwe?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Robert Mugabe", correct: false },
+            { text: "Morgan Tsvangirai", correct: false },
+            { text: "Jacob Zuma", correct: false },
+            { text: "Emmerson Mnangagwa", correct: true }
         ]
     },
     {
-        question: "medium question",
+        question: "Which year did the titanic sink?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "1920", correct: false },
+            { text: "1912", correct: true },
+            { text: "1918", correct: false },
+            { text: "1915", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "What sport did Harry Potter play?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Squamblich", correct: false },
+            { text: "Nyorwagh", correct: false },
+            { text: "Quidditch", correct: true },
+            { text: "Sniditch", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "What is the name of the worlds largest coral reef?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "The north pacific reef", correct: false },
+            { text: "The great barrier reef", correct: true },
+            { text: "The great border reef", correct: false },
+            { text: "The great boundary reef", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "What does CPU stand for?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Civil processing unit ", correct: false },
+            { text: "Cascading proofing unit", correct: false },
+            { text: "Central partial unit", correct: false },
+            { text: "Central processing unit", correct: true }
         ]
     },
     {
-        question: "medium question",
+        question: "What is water made up of?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Hydrogen and oxygen ", correct: true },
+            { text: "Helium and hydrogen", correct: false },
+            { text: "Helium and oxygen", correct: false },
+            { text: "Oxygen and sodium", correct: false }
         ]
     },
     {
-        question: "medium question",
+        question: "What is the major staple food in china?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Beans", correct: false },
+            { text: "Noodles", correct: false },
+            { text: "Fish", correct: false },
+            { text: "Rice", correct: true }
         ]
     },
     {
-        question: "medium question",
+        question: "Who is the 2022 CEO of apple?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Steve Jobs", correct: false },
+            { text: "Tim Cook", correct: true },
+            { text: "Mark Zuckerberg", correct: false },
+            { text: "Elon Musk", correct: false }
+        ]
+    },
+    {
+        question: "How old is the shoe brand 'Nike' in 2022?",
+        answers: [
+            { text: "60 years", correct: false },
+            { text: "70 years", correct: false },
+            { text: "54 years", correct: false },
+            { text: "58 years", correct: true }
         ]
     },
 ];
@@ -559,273 +568,273 @@ const mediumQuestions = [
 
 const hardQuestions = [
     {
-        question: "hard question",
+        question: "Loxodonta is the scientific name of which animal?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Rabbit", correct: false },
+            { text: "Snake", correct: false },
+            { text: "Elephant", correct: true },
+            { text: "Kangaroo", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "Acrophobia is the fear of what?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Heights", correct: true },
+            { text: "Dogs", correct: false },
+            { text: "Driving", correct: false },
+            { text: "Water", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "How many teeth does a typical human adult have?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "26", correct: false },
+            { text: "28", correct: false },
+            { text: "30", correct: false },
+            { text: "32", correct: true }
         ]
     },
     {
-        question: "hard question",
+        question: "What is the average life expectancy in the Philippines?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "68 years", correct: false },
+            { text: "70 years", correct: false },
+            { text: "71 years", correct: true },
+            { text: "73 years", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "What is the worlds largest reptile?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Snake", correct: false },
+            { text: "Saltwater crocodile", correct: true },
+            { text: "Alligator", correct: false },
+            { text: "Sea turtle", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "Who won the 1987 football world cup championship?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Spain", correct: false },
+            { text: "Yugoslavia", correct: true },
+            { text: "France", correct: false },
+            { text: "Britain", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "Entomology is the study of what?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Mammals", correct: false },
+            { text: "Flowers", correct: false },
+            { text: "Fish", correct: false },
+            { text: "Insects", correct: true }
         ]
     },
     {
-        question: "hard question",
+        question: "What is the only landlocked country in Southeast Asia?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Cambodia", correct: false },
+            { text: "Myanmar", correct: false },
+            { text: "Laos", correct: true },
+            { text: "Thailand", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "What is the closest living relative of an elephant?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Rhinoceros", correct: false },
+            { text: "Hippopotamus", correct: false },
+            { text: "Elephant shrew", correct: false },
+            { text: "Rock hyrax", correct: true }
         ]
     },
     {
-        question: "hard question",
+        question: "What is the gestation period of a black rhinoceros?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "9 - 10 months", correct: false },
+            { text: "11 - 12 months", correct: false },
+            { text: "15 - 16 months", correct: true },
+            { text: "17 - 18 months", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "When was lamborghini founded?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "1963", correct: true },
+            { text: "1967", correct: false },
+            { text: "1973", correct: false },
+            { text: "1977", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "What is a group of crows called?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "A flock", correct: false },
+            { text: "A gathering", correct: false },
+            { text: "An uprise", correct: false },
+            { text: "A murder", correct: true }
         ]
     },
     {
-        question: "hard question",
+        question: "when did mozambique gain independence?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "1975", correct: true },
+            { text: "1978", correct: false },
+            { text: "1980", correct: false },
+            { text: "1982", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "What is the star sign of people born on the 29th of february?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Capricorn", correct: false },
+            { text: "Pisces", correct: true },
+            { text: "Leo", correct: false },
+            { text: "Cancer", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "What colours are on the Nigerian flag?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Red and green", correct: false },
+            { text: "Red and white", correct: false },
+            { text: "Green and white", correct: true },
+            { text: "Green and blue", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "Who was the director of the godfather",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Steven Spielberg", correct: false },
+            { text: "Francis Ford Coppola", correct: true },
+            { text: "Christopher Nolan", correct: false },
+            { text: "Tim Burton", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "What is lil wayne's real name",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Chris Wayne", correct: false },
+            { text: "Dwayne Michael Carter, Jr.", correct: true },
+            { text: "Dwayne Michael Carter the third", correct: false },
+            { text: "Chris Wayne, Jr", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "Who wrote 'The Green Mile'?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Ian Fleming", correct: false },
+            { text: "Charles Dickens", correct: false },
+            { text: "Jonathan Swift", correct: false },
+            { text: "Stephen King", correct: true }
         ]
     },
     {
-        question: "hard question",
+        question: "Who created the Pink Panther?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Roy O.Disney", correct: false },
+            { text: "Walt Disney", correct: false },
+            { text: "Blake Edwards", correct: true },
+            { text: "Joanna Edwards", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "What is the national sport of India?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Cricket", correct: false },
+            { text: "Hockey", correct: true },
+            { text: "Tennis", correct: false },
+            { text: "Football", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "How many players are in a polocrosse team?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "8", correct: false },
+            { text: "3", correct: true },
+            { text: "4", correct: false },
+            { text: "6", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "Where were the 1984 olympic games held?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Los Angeles", correct: true },
+            { text: "Beijing", correct: false },
+            { text: "Rome", correct: false },
+            { text: "London", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "How long did the oldest recorded person live for?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "105 years", correct: false },
+            { text: "112 years", correct: false },
+            { text: "118 years", correct: false },
+            { text: "122 years", correct: true }
         ]
     },
     {
-        question: "hard question",
+        question: "What is the square root of 196?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "12", correct: false },
+            { text: "15", correct: false },
+            { text: "14", correct: true },
+            { text: "13", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "What is the largest planet in our solar system?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Jupiter", correct: true },
+            { text: "Uranus", correct: false },
+            { text: "Venus", correct: false },
+            { text: "Mars", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "What is the biggest living creature in the world?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "African elephant", correct: false },
+            { text: "Sperm whale", correct: false },
+            { text: "Antarctic blue whale", correct: true },
+            { text: "Indian elephant", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "What is the 2022 population of Sweden?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Just under 15 million", correct: false },
+            { text: "Just over 15 million", correct: false },
+            { text: "Just under 10 million", correct: false },
+            { text: "Just over 10 million", correct: true }
         ]
     },
     {
-        question: "hard question",
+        question: "How fast can an ostrich run?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "40 km/h", correct: false },
+            { text: "50 km/h", correct: false },
+            { text: "60 km/h", correct: false },
+            { text: "70 km/h", correct: true }
         ]
     },
     {
-        question: "hard question",
+        question: "Roughly how tall is the Burj Khalifa?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "830m", correct: true },
+            { text: "850m", correct: false },
+            { text: "880m", correct: false },
+            { text: "900m", correct: false }
         ]
     },
     {
-        question: "hard question",
+        question: "What is a cup anemometer used for?",
         answers: [
-            { text: "answer 1", correct: false },
-            { text: "answer 2", correct: true },
-            { text: "answer 3", correct: false },
-            { text: "answer 4", correct: false }
+            { text: "Measuring humidity", correct: false },
+            { text: "Measuring temperature", correct: false },
+            { text: "Indicating wind direction", correct: false },
+            { text: "Measuring wind speed", correct: true }
         ]
     },
 ];

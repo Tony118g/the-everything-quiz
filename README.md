@@ -185,6 +185,32 @@ The Everything Quiz is designed to be an easy to use and interactive site with f
 
 ![Deployment screenshot](assets/readme-images/deployment-screenshot.png)
 
+### Forking the Repository
+
+* Through github you can also fork the repository.
+    * This can be done to create a copy of the repository in order to edit it without affecting the original repository.
+    * The steps to fork the repository are listed as follows:
+
+    1. In the "the-everything-quiz" repository, click on the "fork" tab in the top right corner.
+    2. Click on "create fork" to fork the repository.
+
+    ![forking the repository screenshot](assets/readme-images/forking-screenshot.png)
+
+### Cloning the Repository
+
+* Github can also be used to clone the repository.
+    * This can be done to create a local copy of the repository on a computer.
+    * The steps to clone the repository are as follows:
+
+    1. In the "the-everything-quiz" repository, select the "code" tab located  just above the list of files and next to the gitpod button.
+    2. Select https in the dropdown menu.
+    3. Copy the url under https.
+    4. Open Git Bash.
+    5. Change the current working directory to the location where you want the cloned directory to be created.
+    6. Type "git clone" and paste the url that was copied from the repository.
+    7. Press the "enter" key to create the clone.
+
+    ![cloning the repository screenshot](assets/readme-images/cloning-screenshot.png)
 ## Credits
 
 ## Acknowledgements

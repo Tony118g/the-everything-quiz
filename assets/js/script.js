@@ -25,8 +25,8 @@ let timerInterval;
 // gets the menu buttons and adds event listeners to them
 
 document.addEventListener("DOMContentLoaded", function() {
-    const menuButtons = document.getElementsByClassName("menu-btn");
-    for (let menuButton of menuButtons) {
+    const menuButtons = this.querySelectorAll(".menu-btn");
+    menuButtons.forEach((menuButton) => {
         menuButton.addEventListener("click", function() {
             if (this.getAttribute("id") === "rules-button") {
                 displayRules();
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 quizDifficultyPrompt();
             }
         });
-    }
+    });
 });
 
 /*
@@ -78,8 +78,8 @@ function quizDifficultyPrompt() {
     difficultyPrompt.classList.remove("hide");
     heading.classList.add("hide");
     menu.classList.add("hide");
-    const difficultyOptions = document.getElementsByClassName("difficulty-option");
-    for (let difficultyOption of difficultyOptions) {
+    const difficultyOptions = document.querySelectorAll(".difficulty-option");
+    difficultyOptions.forEach((difficultyOption) => {
         difficultyOption.addEventListener("click", function() {
             difficultyPrompt.classList.add("hide");
             if (this.getAttribute("id") === "easy" ) {
@@ -90,7 +90,7 @@ function quizDifficultyPrompt() {
                 startHardQuiz();
             } 
         });
-    }
+    });
 }
 
 /**
@@ -300,8 +300,8 @@ function finalResult() {
     Gets the buttons with class of quiz-complete-btn and
     adds event listeners to them.
     */
-    const endOfQuizButtons = document.getElementsByClassName("quiz-complete-btn");
-    for (let endOfQuizButton of endOfQuizButtons) {
+    const endOfQuizButtons = document.querySelectorAll(".quiz-complete-btn");
+    endOfQuizButtons.forEach((endOfQuizButton) => {
         endOfQuizButton.addEventListener("click", function() {
             score.innerText = 0; // Resets the score to 0 for a new quiz.
             quizComplete.classList.add("hide");
@@ -311,5 +311,5 @@ function finalResult() {
                menu.classList.remove("hide");
             }
         });
-    }
+    });
 }

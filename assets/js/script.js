@@ -18,6 +18,7 @@ const nextButton = document.getElementById("next-button");
 
 let shuffledQuestions;
 let currentQuestionIndex;
+let correctAnswer;
 let timeLeft;
 let timerInterval;
 
@@ -230,7 +231,7 @@ function timeUp() {
     for (const wrongAnswer of wrongAnswers) {
     wrongAnswer.classList.add('wrong-answer');
     }
-    let correctAnswer = document.getElementById("correct");
+    correctAnswer = document.getElementById("correct");
     correctAnswer.classList.add("correct-answer");
     nextButton.classList.remove("hide");
 }
@@ -243,7 +244,7 @@ function timeUp() {
 function checkAnswer(event) {
     clearInterval(timerInterval); // stops the timer from continuing
     answersArea.classList.add("no-pointer"); // Prevents clicks after answer is chosen.
-    let correctAnswer = document.getElementById("correct");
+    correctAnswer = document.getElementById("correct");
     const clickedButton = event.target;
     const correct = clickedButton.dataset.correct;
     correctAnswer.classList.add("correct-answer");

@@ -77,7 +77,7 @@ The Everything Quiz is designed to be an easy to use and interactive site with f
 * #### The Rules Modal
     * The rules modal is accessed through the "rules" button in the main menu.
     * It contains a list of rules for the quiz.
-    * At the top right corner of the modal is a button to exit the modal and return to the main menu.
+    * At the top right corner of the modal is a button to exit the rules modal and return to the main menu.
     * This is useful to users to learn how the quiz works and what the rules are when taking part.
 
     ![Screenshot of the rules modal](assets/readme-images/rules-screenshot.png)
@@ -86,6 +86,7 @@ The Everything Quiz is designed to be an easy to use and interactive site with f
     * The difficulty menu is accessed through the "take the quiz" button in the main menu.
     * It contains buttons with options to set the difficulty of the quiz, either easy, medium or hard.
     * Once one of the option buttons is clicked, the quiz associated with the selected difficulty begins.
+    * At the top right corner of the modal is a button to exit the difficulty menu and return to the main menu.
     * This is useful for users to be able to choose the difficulty level of the quiz before they begin.
 
     ![Screenshot of the difficulty menu](assets/readme-images/difficulty-menu-screenshot.png)
@@ -94,6 +95,11 @@ The Everything Quiz is designed to be an easy to use and interactive site with f
     * Once the user has selected a difficulty, the quiz area is displayed and the quiz begins.
 
     ![Screenshot of the quiz area](assets/readme-images/quiz-screenshot.png)
+
+    * In the top right corner of the quiz area is a button to quit the quiz.
+    * This is useful for the user to be able to exit the quiz at any time without having to refresh the page.
+
+    ![Screenshot of the quit button](assets/readme-images/quit-button-screenshot.png)
 
     * At the top of the quiz area is the question number which changes depending on which question the user is on out of 10.
     * This is useful for the user to keep track of how far along the quiz they are.

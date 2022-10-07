@@ -24,7 +24,7 @@ let score;
 let timeLeft;
 let timerInterval;
 
-// waits for DOM to load before executing first function
+// waits for DOM to load before executing the first function
 // gets the menu buttons and adds event listeners to them
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -39,13 +39,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
-
-/*
- Listens for a click on the next button
-and calls function for the next question.
-*/
-
-nextButton.addEventListener("click", nextQuestion);
 
 /**
  * Hides the main menu while displaying the rules modal
@@ -71,7 +64,7 @@ function closeRules() {
 }
 
 /**
- * Displays the difficulty selection while hiding the main menu 
+ * Displays the difficulty menu while hiding the main menu 
  * as well as gets the difficulty selection buttons 
  * and adds event listeners to them.
  */
@@ -84,19 +77,15 @@ function quizDifficultyPrompt() {
     const closeDifficultyButton = document.getElementById("close-difficulty");
     closeDifficultyButton.addEventListener("click", closeDifficultyMenu);
     
+    // Displays the difficulty menu
     difficultyPrompt.classList.remove("hide");
     heading.classList.add("hide");
     menu.classList.add("hide");
+
+    // Gets buttons for difficulty options and adds event listeners to them
     const difficultyOptions = document.querySelectorAll(".difficulty-option");
     difficultyOptions.forEach((difficultyOption) => {
         difficultyOption.addEventListener("click", function() {
-            /*
-            Gets the button to close the quiz area 
-            and adds an event listener to it.
-            */
-            const quitButton = document.getElementById("close-quiz");
-            quitButton.addEventListener("click", closeQuiz);
-
             difficultyPrompt.classList.add("hide");
             if (this.getAttribute("id") === "easy" ) {
                 startEasyQuiz();
@@ -105,6 +94,10 @@ function quizDifficultyPrompt() {
             } else if (this.getAttribute("id") === "hard") {
                 startHardQuiz();
             } 
+
+            // Gets the button to quit the quiz and adds an event listener to it
+            const quitButton = document.getElementById("close-quiz");
+            quitButton.addEventListener("click", closeQuiz);
         });
     });
 }
@@ -199,6 +192,7 @@ function nextQuestion() {
  */
 
 function displayQuizContent(question) {
+    // Gets the question container
     const questionContainer= document.getElementById("question");
 
     // Adds the question content
@@ -215,6 +209,8 @@ function displayQuizContent(question) {
         } else {
             button.classList.add("incorrect");
         }
+
+        // Adds an event listener to button and appends it to the answer area
         button.addEventListener("click", checkAnswer);
         answersArea.appendChild(button);
     });
@@ -248,7 +244,7 @@ function startTimer() {
 
 /**
  * Checks whether the timeLeft is above 0
- * and decrements it if so. Otherwise it calls the timeUp function
+ * and decrements it if so. Otherwise, it calls the timeUp function
  */
 
 function timer() {
@@ -260,16 +256,23 @@ function timer() {
       timeDisplay.innerHTML = 'Time: ' + timeLeft;    
 }
 
-
+/**
+ * creates an alert that time is up and
+ * provides feedback on correct and incorrect answers
+ */
 
 function timeUp() {
     alert("Oh no! You ran out of time!");
     clearInterval(timerInterval); // Stops the timer from continuing.
     answersArea.classList.add("no-pointer"); // Prevents clicks when time runs out.
+
+    // Gets incorrect answers and adds class for incorrect answers to them.
     const wrongAnswers = document.querySelectorAll('.incorrect');
-    for (const wrongAnswer of wrongAnswers) {
+    for (let wrongAnswer of wrongAnswers) {
     wrongAnswer.classList.add('wrong-answer');
     }
+
+    // Gets correct answer and adds class for correct answer to it.
     correctAnswer = document.getElementById("correct");
     correctAnswer.classList.add("correct-answer");
     nextButton.classList.remove("hide");
@@ -295,11 +298,18 @@ function checkAnswer(event) {
     nextButton.classList.remove("hide"); // Displays the next button.
 }
 
+/*
+ Listens for a click on the next button
+and calls function for the next question.
+*/
+
+nextButton.addEventListener("click", nextQuestion);
+
 /**
  * Gets the current score and increments by 1.
  */
 
-// The idea on how to implement code to increment the score was taken
+// The idea of how to implement code to increment the score was taken
 // from the love maths project (https://github.com/Tony118g/love-maths).
 function incrementScore() {
     score = parseInt(document.getElementById("score").innerText);
@@ -316,6 +326,7 @@ function resetQuizContent() {
     answersArea.classList.remove("no-pointer"); // Allows clicks again in answer area.
     timeLeft = 16; // resets the time amount
     startTimer(); // resets the interval for the timer
+
     // Removes previous answer options
     while (answersArea.firstChild) {
         answersArea.removeChild(answersArea.firstChild);
@@ -323,7 +334,7 @@ function resetQuizContent() {
 }
 
 /**
- * Displays the div with id of quiz-complete 
+ * Displays the div with an id of "quiz-complete" 
  * as well as the main heading
  * and hides the quiz area.
  */
@@ -331,13 +342,13 @@ function resetQuizContent() {
 function finalResult() {
     const quizComplete = document.getElementById("quiz-complete");
     const finalScore = document.getElementById("final-score");
-    quizArea.classList.add("hide"); // hides quiz area
-    heading.classList.remove("hide"); // shows main heading
-    quizComplete.classList.remove("hide"); //shows the div for complete quiz
+    quizArea.classList.add("hide"); 
+    heading.classList.remove("hide"); 
+    quizComplete.classList.remove("hide");
     finalScore.innerText = score; // inputs the final score
 
     /*
-    Gets the buttons with class of quiz-complete-btn and
+    Gets the buttons with a class of "quiz-complete-btn" and
     adds event listeners to them.
     */
     const endOfQuizButtons = document.querySelectorAll(".quiz-complete-btn");

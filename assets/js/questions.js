@@ -35,7 +35,7 @@ const easyQuestions = [
         ]
     },
     {
-        question: "How often are the olympic games held?",
+        question: "How often are the Olympic games held?",
         answers: [
             { text: "Every two weeks", correct: false },
             { text: "Once a year", correct: false },
@@ -170,7 +170,7 @@ const easyQuestions = [
         ]
     },
     {
-        question: "Which of these animals is indiginous to africa?",
+        question: "Which of these animals is indigenous to Africa?",
         answers: [
             { text: "Red deer", correct: false },
             { text: "Elk", correct: false },
@@ -191,7 +191,7 @@ const easyQuestions = [
         question: "At which gathering do people often wear black?",
         answers: [
             { text: "Wedding", correct: false },
-            { text: "Independance", correct: false },
+            { text: "Independence", correct: false },
             { text: "Funeral", correct: true },
             { text: "Birthday", correct: false }
         ]
@@ -215,7 +215,7 @@ const easyQuestions = [
         ]
     },
     {
-        question: "What colour do you get if you mix red and yellow?",
+        question: "What color do you get if you mix red and yellow?",
         answers: [
             { text: "Orange", correct: true },
             { text: "Green", correct: false },
@@ -224,7 +224,7 @@ const easyQuestions = [
         ]
     },
     {
-        question: "What are the primary colours?",
+        question: "What are the primary colors?",
         answers: [
             { text: "Orange, yellow and blue", correct: false },
             { text: "Red, yellow and blue", correct: true },
@@ -269,7 +269,7 @@ const easyQuestions = [
         ]
     },
     {
-        question: "What is the main engridient in bread?",
+        question: "What is the main ingredient in bread?",
         answers: [
             { text: "Water", correct: false },
             { text: "Butter", correct: false },
@@ -293,7 +293,7 @@ const mediumQuestions =[
         ]
     },
     {
-        question: "Where was the 2012 olympic games held?",
+        question: "Where were the 2012 Olympic games held?",
         answers: [
             { text: "Tokyo", correct: false },
             { text: "Beijing", correct: false },
@@ -302,7 +302,7 @@ const mediumQuestions =[
         ]
     },
     {
-        question: "What is the name of the actor who acts as 'Mr Bean'?",
+        question: "What is the name of the actor who acts as 'Mr. Bean'?",
         answers: [
             { text: "Hugh Jackman", correct: false },
             { text: "Trevor Noah", correct: false },
@@ -365,7 +365,7 @@ const mediumQuestions =[
         ]
     },
     {
-        question: "Who is the author of the Harry potter book series?",
+        question: "Who is the author of the Harry Potter book series?",
         answers: [
             { text: "Anne Frank", correct: false },
             { text: "JK Rowling", correct: true },
@@ -446,7 +446,7 @@ const mediumQuestions =[
         ]
     },
     {
-        question: "Where is the Stonehenge?",
+        question: "Where is Stonehenge?",
         answers: [
             { text: "America ", correct: false },
             { text: "India", correct: false },
@@ -509,12 +509,12 @@ const mediumQuestions =[
         ]
     },
     {
-        question: "What is the name of the worlds largest coral reef?",
+        question: "What is the name of the world's largest coral reef?",
         answers: [
-            { text: "The north pacific reef", correct: false },
-            { text: "The great barrier reef", correct: true },
-            { text: "The great border reef", correct: false },
-            { text: "The great boundary reef", correct: false }
+            { text: "The North Pacific Reef", correct: false },
+            { text: "The Great Barrier Reef", correct: true },
+            { text: "The Great Border Reef", correct: false },
+            { text: "The Great Boundary Reef", correct: false }
         ]
     },
     {
@@ -604,7 +604,7 @@ const hardQuestions = [
         ]
     },
     {
-        question: "What is the worlds largest reptile?",
+        question: "What is the world's largest reptile?",
         answers: [
             { text: "Snake", correct: false },
             { text: "Saltwater crocodile", correct: true },
@@ -658,7 +658,7 @@ const hardQuestions = [
         ]
     },
     {
-        question: "When was lamborghini founded?",
+        question: "When was Lamborghini founded?",
         answers: [
             { text: "1963", correct: true },
             { text: "1967", correct: false },
@@ -676,7 +676,7 @@ const hardQuestions = [
         ]
     },
     {
-        question: "when did mozambique gain independence?",
+        question: "When did Mozambique gain independence?",
         answers: [
             { text: "1975", correct: true },
             { text: "1978", correct: false },
@@ -685,7 +685,7 @@ const hardQuestions = [
         ]
     },
     {
-        question: "What is the star sign of people born on the 29th of february?",
+        question: "What is the star sign of people born on the 29th of February?",
         answers: [
             { text: "Capricorn", correct: false },
             { text: "Pisces", correct: true },
@@ -694,7 +694,7 @@ const hardQuestions = [
         ]
     },
     {
-        question: "What colours are on the Nigerian flag?",
+        question: "What colors are on the Nigerian flag?",
         answers: [
             { text: "Red and green", correct: false },
             { text: "Red and white", correct: false },
@@ -712,7 +712,7 @@ const hardQuestions = [
         ]
     },
     {
-        question: "What is lil wayne's real name",
+        question: "What is Lil Wayne's real name",
         answers: [
             { text: "Chris Wayne", correct: false },
             { text: "Dwayne Michael Carter, Jr.", correct: true },
@@ -721,7 +721,7 @@ const hardQuestions = [
         ]
     },
     {
-        question: "Who wrote 'The Green Mile'?",
+        question: "Who wrote 'The Green Mile?",
         answers: [
             { text: "Ian Fleming", correct: false },
             { text: "Charles Dickens", correct: false },
@@ -757,7 +757,7 @@ const hardQuestions = [
         ]
     },
     {
-        question: "Where were the 1984 olympic games held?",
+        question: "Where were the 1984 Olympic games held?",
         answers: [
             { text: "Los Angeles", correct: true },
             { text: "Beijing", correct: false },
@@ -766,7 +766,7 @@ const hardQuestions = [
         ]
     },
     {
-        question: "How long did the oldest recorded person live for?",
+        question: "How long did the oldest recorded person live?",
         answers: [
             { text: "105 years", correct: false },
             { text: "112 years", correct: false },

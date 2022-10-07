@@ -165,6 +165,14 @@ The Everything Quiz is designed to be an easy to use and interactive site with f
 
      ![Screenshot of the completed quiz display](assets/readme-images/quiz-complete-screenshot.png)
 
+### Future Features
+
+Features to be implemented in the future may include:
+
+* An audio feature that plays different sounds for correct and incorrect answers in the quiz.
+* A more advanced difficulty selection.
+    * This would possibly include the time amount and amount of questions changing depending on the selected difficulty.
+
 ## Technologies Used
 
 * [Balsamiq](https://balsamiq.com/wireframes/)

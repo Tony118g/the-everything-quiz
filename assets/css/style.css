@@ -159,9 +159,9 @@ footer > p {
 
 /* media queries */
 
-/* for screens larger than 700px */
+/* for screens larger than 670px */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 670px) {
 
     h1{
         margin-top: 80px;
@@ -173,6 +173,7 @@ footer > p {
     }
 
     .container {
+        min-width: 650px;
         margin:40px auto;
     }
 

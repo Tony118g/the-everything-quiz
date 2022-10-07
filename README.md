@@ -17,9 +17,18 @@ As a user I want to:
 
 ## Site Structure
 
+The site is made up of a single page which displays the main menu and heading upon loading. It then displays and hides different content depending on the actions of the user. More information on the different site features can be found in the [features](#features) section.
+
 ### Wireframes
 
 I created basic wireframes of how I wanted the layout of the site to look using [Balsamiq](https://balsamiq.com/).
+
+* The final version of the site differs in some ways because of changes that were made during the development phase.
+    * The first most obvious change was the addition of buttons to the top right corners of the difficulty menu and quiz area.
+        * These buttons were added to provide the user with a way of exiting the difficulty menu or quiz at any time without having to refresh the page.
+    * Another obvious change is in the completed quiz display where the buttons contain different text to the ones in the wireframe.
+        * This was done to create a better user experience by providing a way to return to the main menu as well as take another quiz instead of just being able to take another quiz or change the quiz difficulty.
+        * The final outcome can be viewed in the [completed quiz display](#the-completed-quiz-display).
 
 #### Home Page Wireframe
 ![home page wireframe](assets/readme-images/home-wireframe.png)

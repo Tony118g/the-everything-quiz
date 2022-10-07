@@ -143,3 +143,29 @@ During code validation the following warnings were presented:
         4. Remove the "no-pointer" class again when a new question is initiated.
 
 ## Additional Testing
+
+### Lighthouse
+
+I used the [Google lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) test in Chrome Developer Tools to test the site in the following categories.
+
+* Performance
+* Accessibility
+* Best Practices
+* SEO
+
+The results I obtained were very good.
+
+![Screenshot of lighthouse test](assets/readme-images/lighthouse-screenshot.png)
+
+### Peer Review
+
+As well as carrying out tests using the above-mentioned sites and tools, I asked my friends and peers to use the site and provide me with feedback.
+
+In general, the users were pleased with the site but a few suggestions were made on how it could be improved. The suggestions made were as follows:
+
+* To add a footer to the page for better structure and to credit the creator.
+* To add buttons to the difficulty menu and quiz area to enable the user to quit and return to the main menu without having to refresh the page.
+
+Both of these suggestions were taken into account and the features associated with them were added to the site. These can be viewed in the features section of the readme.
+
+Return to [README.md](README.md)

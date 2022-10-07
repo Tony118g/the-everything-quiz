@@ -62,6 +62,20 @@ p {
     box-shadow: 0px 0px 15px 5px  #0e202b;
 }
 
+/* buttons to close modals */
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0 10px;
+    background-color: inherit;
+    font-size:2rem;
+    border: none;
+    border-radius: 20px;
+    font-family: montserrat, sans-serif;
+}
+
 /* Answer area buttons in quiz */
 
 #answer-area > .btn {
@@ -92,19 +106,6 @@ li {
     text-align:left;
     margin: 0 20px;
     padding:10px;
-}
-
-.close-modal {
-    position: absolute;
-    top: 20px;
-    right:20px;
-    padding: 0 10px;
-    background-color: inherit;
-    font-size:2rem;
-    border: none;
-    border-radius: 20px;
-    float: right;
-    font-family: montserrat, sans-serif;
 }
 
 /* style to hide modals */

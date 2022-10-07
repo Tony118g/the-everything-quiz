@@ -9,6 +9,7 @@ https://www.youtube.com/watch?v=riDzcEQbX6k
 const heading = document.getElementById("heading");
 const menu = document.getElementById("menu");
 const rulesModal = document.getElementById("rules");
+const difficultyPrompt = document.getElementById("quiz-difficulty-prompt");
 const quizArea = document.getElementById("quiz-area");
 const answersArea = document.getElementById('answer-area');
 const timeDisplay = document.getElementById("timer");
@@ -76,13 +77,26 @@ function closeRules() {
  */
 
 function quizDifficultyPrompt() {
-    const difficultyPrompt = document.getElementById("quiz-difficulty-prompt");
+    /*
+    Gets the button to close the difficulty menu
+    and adds an event listener to it.
+    */
+    const closeDifficultyButton = document.getElementById("close-difficulty");
+    closeDifficultyButton.addEventListener("click", closeDifficultyMenu);
+    
     difficultyPrompt.classList.remove("hide");
     heading.classList.add("hide");
     menu.classList.add("hide");
     const difficultyOptions = document.querySelectorAll(".difficulty-option");
     difficultyOptions.forEach((difficultyOption) => {
         difficultyOption.addEventListener("click", function() {
+            /*
+            Gets the button to close the quiz area 
+            and adds an event listener to it.
+            */
+            const quitButton = document.getElementById("close-quiz");
+            quitButton.addEventListener("click", closeQuiz);
+
             difficultyPrompt.classList.add("hide");
             if (this.getAttribute("id") === "easy" ) {
                 startEasyQuiz();
@@ -93,6 +107,30 @@ function quizDifficultyPrompt() {
             } 
         });
     });
+}
+
+/**
+ * Hides the difficulty menu and displays the main menu.
+ */
+
+ function closeDifficultyMenu() {
+    difficultyPrompt.classList.add("hide");
+    heading.classList.remove("hide");
+    menu.classList.remove("hide");
+}
+
+/**
+ * Hides the quiz area, resets the quiz 
+ * and displays the main menu.
+ */
+
+ function closeQuiz() {
+    currentQuestionIndex = 0;
+    clearInterval(timerInterval);
+    resetScore();
+    quizArea.classList.add("hide");
+    heading.classList.remove("hide");
+    menu.classList.remove("hide");
 }
 
 /**

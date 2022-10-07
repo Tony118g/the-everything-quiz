@@ -165,6 +165,12 @@ The Everything Quiz is designed to be an easy to use and interactive site with f
 
      ![Screenshot of the completed quiz display](assets/readme-images/quiz-complete-screenshot.png)
 
+* The Footer
+    * At the bottom of the page is a footer which contains text stating who created the quiz.
+    * This adds more structure to the site and provides information on who created the site.
+
+    ![Screenshot of the footer](assets/readme-images/footer-screenshot.png)
+
 ### Future Features
 
 Features to be implemented in the future may include:

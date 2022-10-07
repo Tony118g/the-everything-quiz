@@ -242,6 +242,27 @@ Click [here](TESTING.md) for information on testing the site.
     7. Press the "enter" key to create the clone.
 
     ![cloning the repository screenshot](assets/readme-images/cloning-screenshot.png)
+
 ## Credits
 
+### Content
+* The font used was taken from [Google Fonts](https://fonts.google.com/)
+* The colour palette was generated using [coolers](https://coolors.co/)
+* The favicon was generated using this [favicon generator](https://www.favicongenerator.com/);
+
+### Code
+
+* Ideas on how to implement various parts of code to create a quiz were taken from this [youtube tutorial](https://www.youtube.com/watch?v=riDzcEQbX6k).
+* An idea of how to create a function to increment the score was taken from the [love maths](https://github.com/Tony118g/love-maths) project.
+* Ideas on how to implement code for a timer was taken from [here](https://stackoverflow.com/questions/44314897/javascript-timer-for-a-quiz).
+* 
 ## Acknowledgements
+
+This site was developed as a portfolio project for the [Code Institute](https://codeinstitute.net/global/) course in Full Stack Software Development. I would like to thank the following for all of the support throughout the development phase.
+
+* The Code Institute community, including fellow students and staff.
+* My family, friends and peers who helped during the testing phase and provided valuable feedback.
+* My mentor, [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for providing me with advice through the development process.
+
+Antony Guimaraes 2022
+

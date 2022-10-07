@@ -38,6 +38,25 @@ After making the necessary adjustments to the code, no errors or warnings were p
 
 ## Responsiveness
 
+The site was tested for responsiveness throughout the development phase using [Google Chrome Devtools](https://developer.chrome.com/docs/devtools/) and the [Responsive Design Checker](https://responsivedesignchecker.com/).
+
+* The site was designed with a simple centered layout which required very few adjustments for different-sized screens.
+* The site was designed for small screens and then a few adjustments were made for larger screens using a media query.
+
+I tested the site across multiple screen sizes used by different devices and the site worked and was displayed as intended across all the screen sizes.
+* Some of the screen sizes used for testing were:
+    * Moto G4 - 360px x 640px.
+    * Galaxy S9+ - 320px x 658px.
+    * iPhone SE - 375px x 667px.
+    * Nexus 9 - 1024px x 768px
+    * Apple iPad Mini - 768px x 1024px.
+    * Apple iPad Pro - 1366px x 1024px.
+    * 13" Notebook - 1024px x 800px.
+    * 15" Notebook - 1366px x 768px.
+    * 20" Desktop - 1600px x 900px.
+
+
+
 ## Browser Compatibility
 
 ## Testing User Stories

@@ -187,6 +187,8 @@ The Everything Quiz is designed to be an easy to use and interactive site with f
     
 ## Testing
 
+Click [here](TESTING.md) for information on testing the site.
+
 ## Deployment and Development
 
 ### Deploying the Site

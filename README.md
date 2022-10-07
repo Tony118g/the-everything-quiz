@@ -1,5 +1,11 @@
 # The Everything Quiz
 
+The Everything Quiz  is a site that targets people that want to take a quiz based on general knowledge. It is designed to be fun, simple and easy to use. This site will be useful for users to take a quiz at various difficulties and provides a way to test their general knowledge.
+
+Take a look at the live site [here](https://tony118g.github.io/the-everything-quiz/).
+
+![Am I responsive screenshot ](assets/readme-images/am-i-responsive-screenshot.png)
+
 ## User Experience
 
 ### User Stories

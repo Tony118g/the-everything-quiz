@@ -59,7 +59,47 @@ I tested the site across multiple screen sizes used by different devices and the
 
 ## Browser Compatibility
 
+The site was tested on the following browsers:
+* Google Chrome
+* Microsoft Edge
+* Safari
+
+I did not come across any problems on any of these browsers and the functionality and appearance remained consistent.
+
 ## Testing User Stories
+
+As a user I want to:
+
+* test my general knowledge with a quiz.
+    * The focus of the site is on a general knowledge quiz.
+    * The site has intuitive buttons to initiate a quiz.
+    * There are different difficulty levels for the user to select and test their knowledge at different levels.
+
+* be able to initiate the start of the quiz.
+    * A button is available for the user to click on to initiate the difficulty selection and the start of the quiz.
+
+* be able to understand how to take the quiz.
+    * The rules modal clearly explains how to correctly take part in the quiz.
+
+* be able to select a difficulty before starting the quiz.
+    * When the user clicks the button to take the quiz, a prompt first appears telling the user to select a difficulty option to start the quiz.
+
+* know my current score.
+    * At the bottom of the quiz area is a score display that increments with each correct answer and displays the current score.
+
+* know how far along with the quiz I am.
+    * At the top of the quiz area is a question number indicator which displays the number of the question the user is currently on out of 10.
+
+* know whether my answer is correct or wrong.
+    * If the user selects the incorrect answer, the selected answer will be highlighted in red and the correct answer will be highlighted in green.
+    * If the user selects the correct answer, the selected answer will be highlighted in green.
+    * If the timer runs out, the correct answer will be highlighted in green and all the incorrect answers will be highlighted in red.
+
+* know my final score.
+    * At the end of a quiz, a message is displayed to inform the user that the quiz is complete and the final score out of 10 is displayed.
+
+* be able to take the quiz again after completion.
+    * At the end of a quiz, underneath the message containing the final score, there are two buttons with options to retry a quiz or return to the main menu.
 
 ## Known Bugs
 

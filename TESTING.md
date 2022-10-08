@@ -142,6 +142,8 @@ During code validation the following warnings were presented:
         3. Style the class of "no-pointer" to not allow clicks.
         4. Remove the "no-pointer" class again when a new question is initiated.
 
+There are no known unresolved bugs.
+
 ## Additional Testing
 
 ### Lighthouse

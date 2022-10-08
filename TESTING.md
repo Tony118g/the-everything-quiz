@@ -9,7 +9,7 @@ All code for the site has been tested thoroughly.
 * All JavaScript code has been run through [JSHint](https://jshint.com/).
     * A few warnings were presented when testing the JavaScript code.
 
-After making the necessary adjustments to the code, no errors or warnings were presented 
+After making the necessary adjustments to the code, no errors or warnings were presented. 
 * For more information on the warnings that were presented, please go to the [known Bugs](#known-bugs) section.
 
 ### W3C HTML Validator Final Results
@@ -32,7 +32,7 @@ After making the necessary adjustments to the code, no errors or warnings were p
 #### Script Containing Questions (questions.js)
 * No warnings are shown.
 * When the code from the script containing the questions is tested in JSHint it shows that there are 3 unused variables which are the same variables shown as undefined in the main script (script.js).
-    * This is because the functions are used in another script (script.js).
+    * This is because the variables are used in another script (script.js).
 
 ![Screenshot of JSHint result for questions.js](assets/readme-images/jshint-questions-screenshot.png)
 

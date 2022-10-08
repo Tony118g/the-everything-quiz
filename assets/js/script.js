@@ -24,8 +24,10 @@ let score;
 let timeLeft;
 let timerInterval;
 
-// waits for DOM to load before executing the first function
-// gets the menu buttons and adds event listeners to them
+/* 
+waits for DOM to load before executing the first function 
+which gets the menu buttons and adds event listeners to them
+*/
 
 document.addEventListener("DOMContentLoaded", function() {
     const menuButtons = this.querySelectorAll(".menu-btn");
@@ -167,7 +169,7 @@ function startMediumQuiz() {
 
 /**
  * Checks whether the current question index is below 10
- * and if it is, increments the currentQuestionIndex and calls 
+ * and if it is, it increments it and calls 
  * functions to reset and display the quiz content.
  * Otherwise it calls the function
  * to display the final result.
@@ -278,7 +280,7 @@ function timeUp() {
 }
 
 /**
- * Checks the answer chosen against the correct answer
+ * Checks the selected answer against the correct answer
  * and responds accordingly.
  */
 
@@ -332,9 +334,8 @@ function resetQuizContent() {
 }
 
 /**
- * Displays the div with an id of "quiz-complete" 
- * as well as the main heading
- * and hides the quiz area.
+ * Hides the quiz area, displays the div with an id of "quiz-complete"
+ * as well as the main heading and inputs the final score 
  */
 
 function finalResult() {

@@ -204,7 +204,6 @@ function displayQuizContent(question) {
         button.innerText = answer.text;
         button.classList.add('btn');
         if (answer.correct) {
-            button.dataset.correct = true;
             button.id = "correct";
         } else {
             button.classList.add("incorrect");
@@ -288,9 +287,8 @@ function checkAnswer(event) {
     answersArea.classList.add("no-pointer"); // Prevents clicks after answer is chosen.
     correctAnswer = document.getElementById("correct");
     const clickedButton = event.target;
-    const correct = clickedButton.dataset.correct;
     correctAnswer.classList.add("correct-answer");
-        if (correct) {
+        if (clickedButton === correctAnswer) {
             incrementScore();
         } else {
             this.classList.add("wrong-answer");
